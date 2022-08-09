@@ -1,0 +1,10 @@
+
+.head{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 3rem);
+    padding: 1rem;
+}
+.head img{
+    height: 80%;
+}
