@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--blue-bell);
+    background-color: white;
 }
 
 #navbar {
@@ -29,6 +29,7 @@ body {
     position: sticky;
     top: 0;
     background-color: var(--blue-bell);
+    color: white;
 
 }
 
@@ -46,7 +47,7 @@ body {
     margin: .5rem;
     padding: .5rem;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 500;
     border-radius: .5rem;
     transition: ease all .2s;
@@ -55,12 +56,4 @@ body {
 .pageList a.active,
 .pageList a:hover {
     background-color: #e1e1f5a8;
-}
-
-.test {
-    width: 4rem;
-    height: 4rem;
-    background: grey;
-    border-radius: 50%;
-    position: fixed;
 }
